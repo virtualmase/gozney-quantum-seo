@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gozney | AI-Powered SEO Strategy Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #F5F5F5;
+            color: #212121;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Teko', sans-serif;
+            color: #212121;
+        }
+        .text-gozney-primary { color: #386641; }
+        .bg-gozney-primary { background-color: #386641; }
+        .border-gozney-primary { border-color: #386641; }
+        .text-gozney-secondary { color: #A7C957; }
+        .bg-gozney-secondary { background-color: #A7C957; }
+
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px;
+            max-height: 450px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+            }
+        }
+        .card {
+            background-color: #FFFFFF;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+        }
+        .kpi-card {
+            background-color: #FFFFFF;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 150px;
+        }
+        .kpi-value {
+            font-family: 'Teko', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #386641;
+            line-height: 1;
+        }
+        .kpi-label {
+            font-size: 1rem;
+            color: #616161;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <span class="text-3xl font-bold text-gozney-primary">GOZNEY</span>
+            </div>
+            <div class="hidden md:flex space-x-6 text-gray-600">
+                <a href="#overview" class="hover:text-gozney-primary">Strategy Overview</a>
+                <a href="#clusters" class="hover:text-gozney-primary">Keyword Clusters</a>
+                <a href="#tools" class="hover:text-gozney-primary">Tool Integration</a>
+                <a href="#content-flow" class="hover:text-gozney-primary">Content Cadence</a>
+                <a href="#ai-advantage" class="hover:text-gozney-primary">AI Advantage</a>
+                <a href="#dashboard" class="hover:text-gozney-primary">Performance Dashboard</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        <section id="overview" class="text-center mb-16 pt-8">
+            <h1 class="text-6xl md:text-8xl font-bold uppercase tracking-tighter leading-none text-gray-900">
+                Gozney: Igniting Organic Growth with AI-Powered SEO
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-600 mt-4 max-w-4xl mx-auto">
+                A comprehensive Quantum SEO strategy designed to establish Gozney as the definitive leader in outdoor cooking and pizza ovens, driving high-intent organic traffic and significantly boosting conversions.
+            </p>
+        </section>
+
+        <section id="clusters" class="mb-16">
+            <h2 class="text-5xl font-bold text-center mb-10">Strategic Keyword Clusters: Dominating the Outdoor Culinary Landscape</h2>
+            <p class="text-lg text-gray-600 text-center mb-12 max-w-4xl mx-auto">
+                Our AI-driven <strong>Intent Analyzer</strong> and <strong>Competitor Text Analyzer</strong> identify and structure six core content clusters. Each cluster is meticulously designed to capture specific audience segments, anticipate evolving search intent, and guide users seamlessly through their culinary journey, establishing Gozney's unparalleled authority.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gozney-primary mb-3">1. Outdoor Pizza Oven Buyers</h3>
+                    <p class="text-gray-600 mb-4">Guide early-stage researchers to conversion via trust-rich buying content. (TOFU → MOFU → BOFU)</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>`best wood fired pizza oven`</li>
+                        <li>`Gozney Dome vs Ooni`</li>
+                        <li>`pizza oven reviews 2025`</li>
+                        <li>Tools: <strong>Content Booster</strong>, <strong>SEO Content Analyzer</strong></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gozney-primary mb-3">2. Pizza Recipes & Oven Techniques</h3>
+                    <p class="text-gray-600 mb-4">Capture interest for "how to use" and "what to cook" with Gozney products. (TOFU → MOFU)</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>`Neapolitan dough recipe`</li>
+                        <li>`cooking steak in Gozney`</li>
+                        <li>`wood-fired oven tips`</li>
+                        <li>Tools: <strong>Journalistic Content</strong>, <strong>Content Expander</strong>, <strong>YouTube SEO Optimizer</strong></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gozney-primary mb-3">3. Outdoor Kitchen & Gozney Integration</h3>
+                    <p class="text-gray-600 mb-4">Inspire lifestyle setups that feature Gozney ovens as the centerpiece. (TOFU → MOFU)</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>`outdoor kitchen design ideas`</li>
+                        <li>`built in pizza oven`</li>
+                        <li>`Gozney kitchen design`</li>
+                        <li>Tools: <strong>SEO Briefing PRO</strong>, <strong>Proximity & Prominence</strong></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gozney-primary mb-3">4. Beyond Pizza – Culinary Versatility</h3>
+                    <p class="text-gray-600 mb-4">Show Gozney ovens as a full outdoor cooking solution. (TOFU → MOFU → BOFU)</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>`cook steak in Roccbox`</li>
+                        <li>`bake sourdough in pizza oven`</li>
+                        <li>`best outdoor oven recipes`</li>
+                        <li>Tools: <strong>Content Expander</strong>, <strong>PromoWriter</strong></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gozney-primary mb-3">5. Brand Authority & Product Comparisons</h3>
+                    <p class="text-gray-600 mb-4">Win comparison and high-intent branded queries. (MOFU → BOFU)</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>`Gozney vs Ooni`</li>
+                        <li>`Gozney Dome reviews`</li>
+                        <li>`best pizza oven 2025`</li>
+                        <li>Tools: <strong>SERPMeta Pro</strong>, <strong>Intent Analyzer</strong></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gozney-primary mb-3">6. Gozney Community & Support</h3>
+                    <p class="text-gray-600 mb-4">Build long-term community around cooking, sharing, and care. (MOFU → BOFU)</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>`Gozney support`</li>
+                        <li>`Gozney community recipes`</li>
+                        <li>`cleaning pizza ovens`</li>
+                        <li>Tools: <strong>HumanizerPRO</strong>, <strong>Digital Footprint Mapping</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card mt-8 md:col-span-full">
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">Cluster Funnel & Conversion Impact</h3>
+                <p class="text-gray-600 mb-6">This radar chart illustrates the primary funnel stage each cluster targets (TOFU=1, MOFU=2, BOFU=3) and its expected conversion impact, highlighting a balanced strategy across the customer journey.</p>
+                <div class="chart-container">
+                    <canvas id="keywordClusterChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="mb-16">
+            <h2 class="text-5xl font-bold text-center mb-10">Quantum SEO Tool Integration: Precision at Every Step</h2>
+            <p class="text-lg text-gray-600 text-center mb-12 max-w-4xl mx-auto">
+                Gozney's SEO strategy is powered by a diverse suite of Quantum SEO tools. This distribution ensures that every facet of the plan—from initial content creation to advanced competitive analysis—is optimized with unparalleled AI precision, maximizing efficiency and effectiveness.
+            </p>
+            <div class="card md:col-span-full">
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">Tool Usage Distribution Across Strategic Pillars</h3>
+                <p class="text-gray-600 mb-6">This doughnut chart visualizes the approximate allocation of Quantum SEO tools across key strategic areas: Content & Optimization, Generative Search & Entity Management, Advanced Link & Authority Building, E-commerce & Advertising Optimization, and Strategic AI Workflows & Prompt Management.</p>
+                <div class="chart-container">
+                    <canvas id="toolsDistributionChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="content-flow" class="mb-16">
+            <h2 class="text-5xl font-bold text-center mb-10">Content Cadence & Editorial Flow: Consistent Authority Building</h2>
+            <p class="text-lg text-gray-600 text-center mb-12 max-w-4xl mx-auto">
+                A structured 30-day content calendar ensures consistent output, targeting key clusters with a cadence of three high-impact posts per week. Our <strong>SEO Content Suggest</strong> and <strong>WordCloud Forecasting</strong> continuously feed this pipeline with trending topics.
+            </p>
+            <div class="card">
+                <h3 class="text-3xl font-bold text-gray-800 mb-6 text-center">Phased Content Rollout (Weeks 1-4)</h3>
+                <div class="relative w-full py-8">
+                    <div class="absolute left-1/2 h-full w-1 bg-gozney-secondary hidden md:block transform -translate-x-1/2"></div>
+                    <div class="space-y-12">
+                        <div class="md:grid md:grid-cols-2 md:gap-8 items-center">
+                            <div class="md:text-right md:pr-8">
+                                <div class="bg-gozney-primary text-white rounded-full h-12 w-12 flex items-center justify-center mx-auto md:mx-0 mb-2 md:mb-0 text-xl font-bold">1</div>
+                                <p class="text-gozney-primary font-bold mt-2">Week 1: Oven Comparisons & Buying</p>
+                                <h4 class="text-2xl font-bold text-gray-800">Gozney Dome vs Ooni Karu: Which One Wins in 2025?</h4>
+                                <p class="text-gray-600 text-sm">Best Pizza Ovens for Outdoor Kitchens (Updated). Tools: <strong>Content Booster</strong>, <strong>SERPMeta Pro</strong>.</p>
+                            </div>
+                            <div class="hidden md:block"></div>
+                        </div>
+                        <div class="md:grid md:grid-cols-2 md:gap-8 items-center">
+                            <div class="hidden md:block"></div>
+                            <div class="md:pl-8">
+                                <div class="bg-gozney-primary text-white rounded-full h-12 w-12 flex items-center justify-center mx-auto md:mx-0 mb-2 md:mb-0 text-xl font-bold">2</div>
+                                <p class="text-gozney-primary font-bold mt-2">Week 2: Pizza & Beyond Recipes</p>
+                                <h4 class="text-2xl font-bold text-gray-800">How to Cook Steak in the Gozney Dome</h4>
+                                <p class="text-gray-600 text-sm">Mastering Neapolitan Dough with Gozney. Tools: <strong>Journalistic Content</strong>, <strong>Content Expander</strong>.</p>
+                            </div>
+                        </div>
+                         <div class="md:grid md:grid-cols-2 md:gap-8 items-center">
+                            <div class="md:text-right md:pr-8">
+                                <div class="bg-gozney-primary text-white rounded-full h-12 w-12 flex items-center justify-center mx-auto md:mx-0 mb-2 md:mb-0 text-xl font-bold">3</div>
+                                <p class="text-gozney-primary font-bold mt-2">Week 3: Outdoor Kitchen Inspiration</p>
+                                <h4 class="text-2xl font-bold text-gray-800">7 Backyard Pizza Kitchen Layouts Featuring Gozney</h4>
+                                <p class="text-gray-600 text-sm">Building the Ultimate Outdoor Cooking Station. Tools: <strong>SEO Briefing PRO</strong>, <strong>Proximity & Prominence</strong>.</p>
+                            </div>
+                            <div class="hidden md:block"></div>
+                        </div>
+                        <div class="md:grid md:grid-cols-2 md:gap-8 items-center">
+                            <div class="hidden md:block"></div>
+                            <div class="md:pl-8">
+                                <div class="bg-gozney-primary text-white rounded-full h-12 w-12 flex items-center justify-center mx-auto md:mx-0 mb-2 md:mb-0 text-xl font-bold">4</div>
+                                <p class="text-gozney-primary font-bold mt-2">Week 4: Support & Community</p>
+                                <h4 class="text-2xl font-bold text-gray-800">Gozney Owner Cleaning Guide: Tips & Tools</h4>
+                                <p class="text-gray-600 text-sm">Inside the Gozney Community: Top Shared Recipes. Tools: <strong>HumanizerPRO</strong>, <strong>Digital Footprint Mapping</strong>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai-advantage" class="mb-16">
+            <h2 class="text-5xl font-bold text-center mb-10">Quantum SEO's Advanced AI Advantage: Future-Proofing Gozney</h2>
+            <p class="text-lg text-gray-600 text-center mb-12 max-w-4xl mx-auto">
+                Quantum SEO moves beyond traditional tactics, deeply integrating cutting-edge AI capabilities to anticipate, adapt, and dominate the evolving search landscape. This ensures Gozney remains at the forefront of culinary innovation and online visibility.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gozney-primary mb-3">Generative Search Optimization (GSO)</h3>
+                    <p class="text-gray-600 mb-4">Focus on entity-rich, semantically predictable content that Google's Search Generative Experience (SGE) and LLMs will prefer.</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>Add internal FAQ blocks (for Google snippets + Bard).</li>
+                        <li>Insert &lt;article&gt; structured HTML tags, define entities (e.g., Gozney Dome = hybrid oven → energy source, size, portability).</li>
+                        <li>Bonus: Set up tracking for which articles surface in SGE using screenshot logs or Bard API testing.</li>
+                        <li>Tools: <strong>Lighthouse Content Builder</strong>, <strong>Search Response Analyzer</strong>, <strong>Structured Data Generator</strong>.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gozney-primary mb-3">Predictive Analytics & Trend Forecasting</h3>
+                    <p class="text-gray-600 mb-4">Leveraging AI to anticipate future culinary trends, emerging outdoor cooking techniques, and shifts in consumer interest for proactive content creation.</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li><strong>WordCloud Forecasting:</strong> Identifies nascent topics and keyword patterns in outdoor cooking discourse.</li>
+                        <li><strong>SEO Content Suggest:</strong> Provides proactive content ideas based on predictive models.</li>
+                        <li><strong>Digital Footprint Mapping:</strong> Monitors broader digital landscape for emerging entity relationships.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gozney-primary mb-3">Entity-Based SEO & Knowledge Graph Optimization</h3>
+                    <p class="text-gray-600 mb-4">Solidifying Gozney's presence and authority within search engine knowledge graphs, ensuring accurate and comprehensive brand and product representation.</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li><strong>Digital Footprint Mapping:</strong> Identifies all brand mentions and data points across the web for consistency.</li>
+                        <li><strong>Lighthouse Content Builder:</strong> Focuses on content that explicitly defines and interlinks entities.</li>
+                        <li><strong>Structured Data Generator:</strong> Used for complex entity-related markup to bolster knowledge graph presence.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gozney-primary mb-3">Multimodal Search Optimization</h3>
+                    <p class="text-gray-600 mb-4">Preparing Gozney for the increasing prevalence of visual and voice search, ensuring discoverability across diverse search modalities for recipes and products.</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>Add full video support to key recipe/technique pages (YouTube embeds + transcript schema); Prioritize content with visual payoff: dough stretching, charring crust, sizzling steak.</li>
+                        <li>Embed viral TikTok or Pinterest “pizza flip” or “backyard install” videos inline.</li>
+                        <li>Add Schema for VideoObject and SocialMediaPosting.</li>
+                        <li>Tools: <strong>YouTube SEO Optimizer</strong>, <strong>Image SEO Best Practices (Enhanced)</strong>, <strong>Speech-to-Text Analysis (Future)</strong>.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gozney-primary mb-3">AI-Powered Support Content</h3>
+                    <p class="text-gray-600 mb-4">Leveraging AI to enhance customer support content, providing immediate and accurate answers to common queries, and building a robust, searchable knowledge base.</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>Use chat-based structured content for troubleshooting (e.g. “Why is my Dome not heating evenly?”).</li>
+                        <li>Build a Gozney Help Hub with layered FAQs, indexed for search & internal linking.</li>
+                        <li>Tools: <strong>HumanizerPRO</strong>, <strong>Structured Data Generator</strong> (for FAQ schema).</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gozney-primary mb-3">Interactive Tools & UGC Integration</h3>
+                    <p class="text-gray-600 mb-4">Implementing engaging interactive tools and fostering user-generated content to enhance user experience, capture leads, and amplify brand reach.</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>“Oven Finder” Quiz (based on use, location, fuel, budget).</li>
+                        <li>“Recipe to Oven Compatibility” engine (filter by model + accessory).</li>
+                        <li>Highlight content from Gozney Creators or customers weekly.</li>
+                        <li>UGC CTA on thank-ou pages and product packaging: “Share your Gozney cook!”</li>
+                        <li>Launch a campaign titled: “Gozney Backyard Tour 2025” to get customers to upload kitchen photos + oven setups, offering discount/prize for best ones. Use these for backlinks, image search, and content amplification. Bonus: Link UGC content to PDPs and track referral path via UTM.</li>
+                        <li>Tools: <strong>Content Expander</strong> (for quiz content), <strong>PromoWriter</strong> (for UGC CTAs).</li>
+                    </ul>
+                </div>
+                <div class="card md:col-span-2">
+                    <h3 class="text-3xl font-bold text-gozney-primary mb-3">AI-Powered Alerts for Technical SEO</h3>
+                    <p class="text-gray-600 mb-4">Integrate an alert system for critical technical SEO issues, enabling proactive problem-solving and maintaining site health.</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>Schema drift (Recipe missing on posts).</li>
+                        <li>Non-indexed pages (via GSC API).</li>
+                        <li>Rising bounce pages (via GA4 custom alerts).</li>
+                        <li>Tooling Options: Google Apps Script + Slack webhook + Google Search Console API.</li>
+                    </ul>
+                </div>
+                <div class="card md:col-span-2">
+                    <h3 class="text-3xl font-bold text-gozney-primary mb-3">Product to Content Pathing</h3>
+                    <p class="text-gray-600 mb-4">On product pages (like the Dome or Roccbox), show relevant content like: “Want to master sourdough in your Dome? Here’s a 5-step guide.” or “Dome vs Ooni? Learn why chefs choose Gozney.”</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>Boosts time on site + cross-linking.</li>
+                        <li>Improves product conversion rate.</li>
+                        <li>Encourages funnel movement from PDP to content.</li>
+                        <li>Tech Stack: Shopify app + embedded GA4 event tracking + blog tag filters.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap" class="mb-16">
+            <h2 class="text-5xl font-bold text-center mb-10">Implementation Roadmap: Strategic Phased Rollout</h2>
+            <p class="text-lg text-gray-600 text-center mb-12 max-w-4xl mx-auto">
+                The Gozney SEO strategy unfolds in distinct phases over six months, ensuring a structured and measurable path to achieving optimal organic growth. This roadmap highlights key initiatives and their durations.
+            </p>
+            <div class="card">
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">Gozney SEO Strategy Phases (Q3-Q4 2025)</h3>
+                <p class="text-gray-600 mb-6">This bar chart illustrates the duration of each strategic phase, from foundational setup to advanced AI integration and competitive expansion.</p>
+                <div class="chart-container" style="height: 420px;">
+                    <canvas id="roadmapChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="dashboard" class="mb-16">
+            <h2 class="text-5xl font-bold text-center mb-10">Gozney Looker Studio SEO Performance Dashboard</h2>
+            <p class="text-lg text-gray-600 text-center mb-12 max-w-4xl mx-auto">
+                A custom Looker Studio SEO Dashboard Framework tailored specifically for Gozney’s organic growth and culinary content strategy, providing real-time insights and actionable data.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+                <div class="kpi-card">
+                    <div class="kpi-value">185K+</div>
+                    <div class="kpi-label">Organic Sessions (Last 90 days)</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-value">#3</div>
+                    <div class="kpi-label">Avg. SERP Position (Core Keywords)</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-value">$1.2M+</div>
+                    <div class="kpi-label">Revenue from Organic Search</div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-4">Organic Sessions Trend</h3>
+                    <p class="text-gray-600 mb-6">Monthly organic sessions over the last 6 months, showing consistent growth.</p>
+                    <div class="chart-container">
+                        <canvas id="organicSessionsChart"></canvas>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-4">Top 10 Landing Pages by Traffic</h3>
+                    <p class="text-gray-600 mb-6">The highest-performing content and product pages driving organic traffic.</p>
+                    <div class="chart-container">
+                        <canvas id="topLandingPagesChart"></canvas>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-4">CTR by Funnel Stage</h3>
+                    <p class="text-gray-600 mb-6">Click-Through Rate performance across different stages of the customer funnel.</p>
+                    <div class="chart-container">
+                        <canvas id="ctrFunnelChart"></canvas>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-4">Keyword Cluster Performance: Impressions</h3>
+                    <p class="text-gray-600 mb-6">Total impressions for each content cluster, highlighting visibility across key topics.</p>
+                    <div class="chart-container">
+                        <canvas id="clusterImpressionsChart"></canvas>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-4">Schema Coverage Status</h3>
+                    <p class="text-gray-600 mb-6">Percentage of pages with valid Schema.org markup by type, crucial for rich results.</p>
+                    <div class="chart-container">
+                        <canvas id="schemaCoverageChart"></canvas>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-4">Key Technical Health Indicators</h3>
+                    <p class="text-gray-600 mb-6">Snapshot of critical technical SEO metrics to ensure site health.</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
+                        <li><strong>Indexed Pages Count:</strong> 12,500 <span class="text-gozney-primary">&#10003;</span></li>
+                        <li><strong>Crawl Errors / 404s:</strong> 5 (Low) <span class="text-gozney-primary">&#10003;</span></li>
+                        <li><strong>Page Speed (Core Web Vitals):</strong> Good <span class="text-gozney-primary">&#10003;</span></li>
+                        <li><strong>Non-performing URLs (Low CTR):</strong> 15 (Review for refresh)</li>
+                    </ul>
+                </div>
+                <div class="card lg:col-span-2">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-4">Topic Cluster Health Score</h3>
+                    <p class="text-gray-600 mb-6">A KPI for each content group, calculated as: [(CTR + Avg. Rank score + Content freshness) &divide; 3] &times; Conversion Influence Multiplier. This flags underperforming clusters needing refreshes or promotion.</p>
+                    <div class="chart-container">
+                        <canvas id="clusterHealthScoreChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-8 lg:col-span-3">
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">Content Performance Overview (Sample Table Structure)</h3>
+                <p class="text-gray-600 mb-6">A master table providing detailed SEO and engagement metrics for individual content pieces, sortable by various criteria.</p>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full bg-white border border-gray-200 rounded-lg">
+                        <thead>
+                            <tr class="bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                <th class="py-3 px-4 border-b">Blog Title + URL</th>
+                                <th class="py-3 px-4 border-b">Primary Keyword</th>
+                                <th class="py-3 px-4 border-b">GSC Clicks</th>
+                                <th class="py-3 px-4 border-b">GA4 Sessions</th>
+                                <th class="py-3 px-4 border-b">Time on Page</th>
+                                <th class="py-3 px-4 border-b">Conversions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="hover:bg-gray-50">
+                                <td class="py-3 px-4 border-b text-sm text-gray-900"><a href="#" class="text-gozney-primary hover:underline">Gozney Dome vs Ooni Karu: Which Wins?</a></td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">`gozney dome vs ooni`</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">15,200</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">18,500</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">4:30</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">150</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="py-3 px-4 border-b text-sm text-gray-900"><a href="#" class="text-gozney-primary hover:underline">How to Cook Steak in the Gozney Dome</a></td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">`cook steak in gozney`</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">8,900</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">11,200</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">6:15</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">25</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="py-3 px-4 border-b text-sm text-gray-900"><a href="#" class="text-gozney-primary hover:underline">7 Backyard Pizza Kitchen Layouts</a></td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">`outdoor kitchen design`</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">6,100</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">7,800</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">3:50</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">10</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="py-3 px-4 border-b text-sm text-gray-900"><a href="#" class="text-gozney-primary hover:underline">Mastering Neapolitan Dough with Gozney</a></td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">`neapolitan dough recipe`</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">22,500</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">28,000</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">7:00</td>
+                                <td class="py-3 px-4 border-b text-sm text-gray-700">5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card mt-8 lg:col-span-3">
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">Editorial Calendar Sync (Conceptual)</h3>
+                <p class="text-gray-600 mb-6">A conceptual representation of how the editorial calendar integrates, allowing for real-time tracking of content status and performance. This would typically sync with a dedicated project management tool.</p>
+                <div class="flex flex-col md:flex-row items-center justify-around space-y-4 md:space-y-0 md:space-x-8 text-center">
+                    <div class="flex flex-col items-center">
+                        <span class="text-5xl text-gozney-primary mb-2">&#128197;</span>
+                        <p class="font-bold text-lg">Planned Topics</p>
+                        <p class="text-gray-600">New content ideas from AI forecasting.</p>
+                    </div>
+                    <div class="text-3xl text-gray-400 hidden md:block">&rarr;</div>
+                    <div class="flex flex-col items-center">
+                        <span class="text-5xl text-gozney-secondary mb-2">&#128221;</span>
+                        <p class="font-bold text-lg">Drafting & Review</p>
+                        <p class="text-gray-600">Content in production with AI assistance.</p>
+                    </div>
+                    <div class="text-3xl text-gray-400 hidden md:block">&rarr;</div>
+                    <div class="flex flex-col items-center">
+                        <span class="text-5xl text-gozney-primary mb-2">&#128279;</span>
+                        <p class="font-bold text-lg">Published & Indexed</p>
+                        <p class="text-gray-600">Live content, optimized for search.</p>
+                    </div>
+                    <div class="text-3xl text-gray-400 hidden md:block">&rarr;</div>
+                    <div class="flex flex-col items-center">
+                        <span class="text-5xl text-gozney-secondary mb-2">&#128200;</span>
+                        <p class="font-bold text-lg">Performance Tracking</p>
+                        <p class="text-gray-600">Real-time metrics and insights.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 text-white mt-16">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; 2025 Gozney. SEO Strategy Powered by Quantum SEO.</p>
+            <p class="text-sm text-gray-500 mt-2">This infographic is a conceptual representation based on the "Gozney SEO Keyword Cluster Content Strategy" and related detailed plans.</p>
+        </div>
+    </footer>
+
+    <script>
+        const vibrantPalette = {
+            primaryGreen: '#386641',
+            secondaryGreen: '#A7C957',
+            darkGray: '#212121',
+            mediumGray: '#616161',
+            lightGray: '#F5F5F5',
+            white: '#FFFFFF'
+        };
+
+        const chartTooltipTitleCallback = function(tooltipItems) {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+              return label.join(' ');
+            } else {
+              return label;
+            }
+        };
+        
+        const processLabels = (labels) => {
+            return labels.map(label => {
+                if (label.length > 16) {
+                    const words = label.split(' ');
+                    const lines = [];
+                    let currentLine = '';
+                    words.forEach(word => {
+                        if ((currentLine + word).length > 16 && currentLine !== '') {
+                            lines.push(currentLine.trim());
+                            currentLine = word + ' ';
+                        } else {
+                            currentLine += word + ' ';
+                        }
+                    });
+                    lines.push(currentLine.trim());
+                    return lines;
+                }
+                return label;
+            });
+        };
+
+        // Chart 1: Keyword Cluster Funnel & Conversion Impact (Radar Chart)
+        const keywordClusterChartCtx = document.getElementById('keywordClusterChart').getContext('2d');
+        new Chart(keywordClusterChartCtx, {
+            type: 'radar',
+            data: {
+                labels: processLabels(['Pizza Oven Essentials & Buying Guides', 'Pizza Recipes & Oven Techniques', 'Outdoor Kitchen & Lifestyle Integration', 'Gozney Product Comparisons & Brand Authority', 'Beyond Pizza – Culinary Versatility', 'Gozney Community & Support']),
+                datasets: [{
+                    label: 'Funnel Stage (1=TOFU, 3=BOFU)',
+                    data: [2, 1.5, 1.5, 3, 2, 2.5],
+                    backgroundColor: 'rgba(56, 102, 65, 0.2)',
+                    borderColor: vibrantPalette.primaryGreen,
+                    pointBackgroundColor: vibrantPalette.primaryGreen,
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: vibrantPalette.primaryGreen
+                }, {
+                    label: 'Conversion Impact (1=Low, 3=High)',
+                    data: [3, 1.5, 2, 3, 2, 1.5],
+                    backgroundColor: 'rgba(33, 33, 33, 0.2)',
+                    borderColor: vibrantPalette.darkGray,
+                    pointBackgroundColor: vibrantPalette.darkGray,
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: vibrantPalette.darkGray
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                scales: {
+                    r: {
+                        angleLines: { color: 'rgba(0, 0, 0, 0.1)' },
+                        grid: { color: 'rgba(0, 0, 0, 0.1)' },
+                        pointLabels: { font: { size: 12 }, color: vibrantPalette.mediumGray },
+                        ticks: {
+                            backdropColor: 'transparent',
+                            stepSize: 1,
+                            max: 3,
+                            min: 1,
+                            color: vibrantPalette.mediumGray
+                        }
+                    }
+                },
+                plugins: {
+                    legend: { position: 'top', labels: { color: vibrantPalette.darkGray } },
+                    tooltip: { callbacks: { title: chartTooltipTitleCallback } }
+                }
+            }
+        });
+
+        // Chart 2: Quantum SEO Tool Integration (Doughnut Chart)
+        const toolsDistributionChartCtx = document.getElementById('toolsDistributionChart').getContext('2d');
+        new Chart(toolsDistributionChartCtx, {
+            type: 'doughnut',
+            data: {
+                labels: processLabels(['Content & Optimization Suite', 'Generative Search & Entity Management', 'Advanced Link & Authority Building', 'E-commerce & Advertising Optimization', 'Strategic AI Workflows & Prompt Management']),
+                datasets: [{
+                    label: 'Tool Usage Distribution',
+                    data: [35, 25, 15, 15, 10],
+                    backgroundColor: [vibrantPalette.primaryGreen, vibrantPalette.secondaryGreen, vibrantPalette.darkGray, vibrantPalette.mediumGray, vibrantPalette.lightGray],
+                    borderColor: vibrantPalette.white,
+                    borderWidth: 4,
+                    hoverOffset: 8
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                cutout: '60%',
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            padding: 20,
+                            color: vibrantPalette.darkGray,
+                            font: { size: 12 },
+                            boxWidth: 15
+                        }
+                    },
+                    tooltip: { callbacks: { title: chartTooltipTitleCallback } }
+                }
+            }
+        });
+
+        // Chart 3: Implementation Roadmap (Horizontal Bar Chart)
+        const roadmapChartCtx = document.getElementById('roadmapChart').getContext('2d');
+        new Chart(roadmapChartCtx, {
+            type: 'bar',
+            data: {
+                labels: processLabels(['Phase 1: Foundational Content & Technical', 'Phase 2: Cluster Content & Internal Linking', 'Phase 3: Advanced AI Integration & Monitoring', 'Phase 4: Expansion, Refinement & Competitive Edge']),
+                datasets: [{
+                    label: 'Duration (Weeks)',
+                    data: [8, 6, 4, 8],
+                    backgroundColor: [
+                        'rgba(56, 102, 65, 0.7)',
+                        'rgba(167, 201, 87, 0.7)',
+                        'rgba(33, 33, 33, 0.7)',
+                        'rgba(97, 97, 97, 0.7)'
+                    ],
+                    borderColor: [
+                        vibrantPalette.primaryGreen,
+                        vibrantPalette.secondaryGreen,
+                        vibrantPalette.darkGray,
+                        vibrantPalette.mediumGray
+                    ],
+                    borderWidth: 2,
+                    borderRadius: 5
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: { display: false },
+                        title: { display: true, text: 'Duration in Weeks', color: vibrantPalette.mediumGray, font: { size: 14 } },
+                        ticks: { color: vibrantPalette.darkGray, font: { size: 12 } }
+                    },
+                    y: {
+                        grid: { display: false },
+                        ticks: { color: vibrantPalette.darkGray, font: { size: 12 } }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { title: chartTooltipTitleCallback } }
+                }
+            }
+        });
+
+        // New Chart: Organic Sessions Trend (Line Chart)
+        const organicSessionsChartCtx = document.getElementById('organicSessionsChart').getContext('2d');
+        new Chart(organicSessionsChartCtx, {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+                datasets: [{
+                    label: 'Organic Sessions',
+                    data: [120000, 135000, 150000, 165000, 180000, 195000],
+                    fill: true,
+                    backgroundColor: 'rgba(56, 102, 65, 0.1)',
+                    borderColor: vibrantPalette.primaryGreen,
+                    tension: 0.3,
+                    pointBackgroundColor: vibrantPalette.primaryGreen,
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: vibrantPalette.primaryGreen
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        grid: { display: false },
+                        ticks: { color: vibrantPalette.darkGray }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: 'rgba(0, 0, 0, 0.05)' },
+                        ticks: {
+                            callback: function(value) {
+                                return value / 1000 + 'k';
+                            },
+                            color: vibrantPalette.darkGray
+                        }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { title: chartTooltipTitleCallback } }
+                }
+            }
+        });
+
+        // New Chart: Top 10 Landing Pages by Traffic (Horizontal Bar Chart)
+        const topLandingPagesChartCtx = document.getElementById('topLandingPagesChart').getContext('2d');
+        new Chart(topLandingPagesChartCtx, {
+            type: 'bar',
+            data: {
+                labels: processLabels([
+                    '/pizza-ovens/dome',
+                    '/recipes/neapolitan-pizza',
+                    '/pizza-ovens/roccbox',
+                    '/outdoor-kitchen-designs',
+                    '/recipes/steak-in-oven',
+                    '/pizza-oven-accessories',
+                    '/gozney-vs-ooni',
+                    '/recipes/sourdough-bread-oven',
+                    '/support/troubleshooting',
+                    '/community-recipes'
+                ]),
+                datasets: [{
+                    label: 'Organic Sessions',
+                    data: [25000, 22000, 18000, 15000, 13000, 11000, 9000, 7000, 6000, 5000],
+                    backgroundColor: vibrantPalette.secondaryGreen,
+                    borderColor: vibrantPalette.primaryGreen,
+                    borderWidth: 1,
+                    borderRadius: 5
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: { display: false },
+                        ticks: { color: vibrantPalette.darkGray }
+                    },
+                    y: {
+                        grid: { display: false },
+                        ticks: { color: vibrantPalette.darkGray }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { title: chartTooltipTitleCallback } }
+                }
+            }
+        });
+
+        // New Chart: CTR by Funnel Stage (Bar Chart)
+        const ctrFunnelChartCtx = document.getElementById('ctrFunnelChart').getContext('2d');
+        new Chart(ctrFunnelChartCtx, {
+            type: 'bar',
+            data: {
+                labels: ['TOFU', 'MOFU', 'BOFU'],
+                datasets: [{
+                    label: 'CTR (%)',
+                    data: [3.5, 5.8, 8.2],
+                    backgroundColor: [
+                        'rgba(56, 102, 65, 0.7)',
+                        'rgba(167, 201, 87, 0.7)',
+                        'rgba(33, 33, 33, 0.7)'
+                    ],
+                    borderColor: [
+                        vibrantPalette.primaryGreen,
+                        vibrantPalette.secondaryGreen,
+                        vibrantPalette.darkGray
+                    ],
+                    borderWidth: 1,
+                    borderRadius: 5
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: { display: false },
+                        ticks: { color: vibrantPalette.darkGray }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: 'rgba(0, 0, 0, 0.05)' },
+                        ticks: { color: vibrantPalette.darkGray, callback: function(value) { return value + '%'; } }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { title: chartTooltipTitleCallback } }
+                }
+            }
+        });
+
+        // New Chart: Keyword Cluster Performance: Impressions (Bar Chart)
+        const clusterImpressionsChartCtx = document.getElementById('clusterImpressionsChart').getContext('2d');
+        new Chart(clusterImpressionsChartCtx, {
+            type: 'bar',
+            data: {
+                labels: processLabels(['Pizza Oven Buyers', 'Pizza Recipes & Oven Techniques', 'Outdoor Kitchen & Gozney Integration', 'Beyond Pizza – Culinary Versatility', 'Brand Authority & Product Comparisons', 'Gozney Community & Support']),
+                datasets: [{
+                    label: 'Total Impressions',
+                    data: [800000, 1200000, 500000, 700000, 950000, 400000],
+                    backgroundColor: vibrantPalette.secondaryGreen,
+                    borderColor: vibrantPalette.primaryGreen,
+                    borderWidth: 1,
+                    borderRadius: 5
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: { display: false },
+                        ticks: {
+                            callback: function(value) {
+                                return value / 1000 + 'k';
+                            },
+                            color: vibrantPalette.darkGray
+                        }
+                    },
+                    y: {
+                        grid: { display: false },
+                        ticks: { color: vibrantPalette.darkGray }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { title: chartTooltipTitleCallback } }
+                }
+            }
+        });
+
+        // New Chart: Schema Coverage Status (Doughnut Chart)
+        const schemaCoverageChartCtx = document.getElementById('schemaCoverageChart').getContext('2d');
+        new Chart(schemaCoverageChartCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Recipe Schema', 'Product Schema', 'HowTo Schema', 'FAQ Schema', 'No Schema'],
+                datasets: [{
+                    label: 'Schema Coverage (%)',
+                    data: [35, 30, 15, 10, 10],
+                    backgroundColor: [
+                        vibrantPalette.primaryGreen,
+                        vibrantPalette.secondaryGreen,
+                        vibrantPalette.darkGray,
+                        vibrantPalette.mediumGray,
+                        '#BDBDBD'
+                    ],
+                    borderColor: vibrantPalette.white,
+                    borderWidth: 4,
+                    hoverOffset: 8
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                cutout: '60%',
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            padding: 20,
+                            color: vibrantPalette.darkGray,
+                            font: { size: 12 },
+                            boxWidth: 15
+                        }
+                    },
+                    tooltip: { callbacks: { title: chartTooltipTitleCallback } }
+                }
+            }
+        });
+
+        // New Chart: Cluster Health Score (Bar Chart)
+        const clusterHealthScoreChartCtx = document.getElementById('clusterHealthScoreChart').getContext('2d');
+        new Chart(clusterHealthScoreChartCtx, {
+            type: 'bar',
+            data: {
+                labels: processLabels(['Pizza Oven Buyers', 'Pizza Recipes & Oven Techniques', 'Outdoor Kitchen & Lifestyle Integration', 'Beyond Pizza – Culinary Versatility', 'Brand Authority & Product Comparisons', 'Gozney Community & Support']),
+                datasets: [{
+                    label: 'Health Score (out of 100)',
+                    data: [85, 70, 75, 60, 90, 65],
+                    backgroundColor: [
+                        'rgba(56, 102, 65, 0.7)',
+                        'rgba(167, 201, 87, 0.7)',
+                        'rgba(33, 33, 33, 0.7)',
+                        'rgba(97, 97, 97, 0.7)',
+                        'rgba(56, 102, 65, 0.9)',
+                        'rgba(167, 201, 87, 0.9)'
+                    ],
+                    borderColor: [
+                        vibrantPalette.primaryGreen,
+                        vibrantPalette.secondaryGreen,
+                        vibrantPalette.darkGray,
+                        vibrantPalette.mediumGray,
+                        vibrantPalette.primaryGreen,
+                        vibrantPalette.secondaryGreen
+                    ],
+                    borderWidth: 1,
+                    borderRadius: 5
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        max: 100,
+                        grid: { display: false },
+                        ticks: { color: vibrantPalette.darkGray, callback: function(value) { return value + '%'; } }
+                    },
+                    y: {
+                        grid: { display: false },
+                        ticks: { color: vibrantPalette.darkGray }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { title: chartTooltipTitleCallback } }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
